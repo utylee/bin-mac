@@ -5,9 +5,11 @@ import os, time, shutil
 path = '/Users/utylee/Downloads/'
 #target = 'w:\\99-data\\91-transmission-watch\\'
 #target = 'w:/99-data/91-transmission-watch'
-target = '/Volumes/3002/99-data/91-transmission-watch/'
+#target = '/Volumes/3002/99-data/91-transmission-watch/'
+target = '/Volumes/clark/4001/99-data/91-transmission-watch/'
 #target_media = 'w:/00-MediaWorld'
-target_media = '/Volumes/3002/00-MediaWorld/'
+#target_media = '/Volumes/3002/00-MediaWorld/'
+target_media = '/Volumes/clark/3001/00-MediaWorld/'
 
 
 before = dict([(f, None) for f in os.listdir(path)])
@@ -21,6 +23,8 @@ while 1:
         for i in added:
             #if added[0][-7:] == 'torrent' : 
             if i[-7:] == 'torrent' : 
+                # .part 파일로서 다운받고 리네임되면서 뭔가 복사에 오류가 생겨 텀을 줘보기로
+                time.sleep(2)
                 #a = path + "".join(added) 
                 a = path + "".join(i) 
                 try:
@@ -32,6 +36,8 @@ while 1:
     
             #elif added[0][-3:] == 'smi' or added[0][-3:] == 'srt' :
             elif i[-3:] == 'smi' or i[-3:] == 'srt' :
+                # .part 파일로서 다운받고 리네임되면서 뭔가 복사에 오류가 생겨 텀을 줘보기로
+                time.sleep(2)
                 #a = path + "".join(added) 
                 a = path + "".join(i) 
                 try:

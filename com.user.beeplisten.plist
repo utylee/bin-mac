@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
    <key>Label</key>
-   <string>com.user.loginscript</string>
+   <string>com.user.beeplisten</string>
   
    <key>ProgramArguments</key>
    <array>
-       <string>/Users/utylee/bin/torrentwatcher.sh</string>
+         <string>/Users/utylee/bin/beep_listen_mac.sh</string>
    </array>
    <key>RunAtLoad</key>
    <true/>
