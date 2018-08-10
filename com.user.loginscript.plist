@@ -7,8 +7,9 @@
   
    <key>ProgramArguments</key>
    <array>
-       <string>/Users/utylee/bin/torrentwatcher.sh</string>
+         <string>/Users/utylee/bin/torrentwatcher.sh</string>
    </array>
+  
    <key>RunAtLoad</key>
    <true/>
 </dict>
