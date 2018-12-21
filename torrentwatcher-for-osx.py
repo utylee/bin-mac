@@ -9,7 +9,7 @@ path = '/Users/utylee/Downloads/'
 target = '/Volumes/clark/4001/99-data/91-transmission-watch/'
 #target_media = 'w:/00-MediaWorld'
 #target_media = '/Volumes/3002/00-MediaWorld/'
-target_media = '/Volumes/clark/3001/00-MediaWorld/'
+target_media = '/Volumes/clark/4002/00-MediaWorld-4002/'
 
 
 before = dict([(f, None) for f in os.listdir(path)])
