@@ -5,10 +5,8 @@
    <key>Label</key>
    <string>com.user.loginscript</string>
   
-   <key>ProgramArguments</key>
-   <array>
-         <string>/Users/utylee/bin/torrentwatcher.sh</string>
-   </array>
+   <key>Program</key>
+   <string>/Users/utylee/bin/torrentwatcher.sh</string>
   
    <key>RunAtLoad</key>
    <true/>
